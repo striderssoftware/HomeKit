@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C24D9381ADE3B8800FFDA2B /* ZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C24D9371ADE3B8800FFDA2B /* ZoneViewController.m */; };
+		4C25EFBF1B80302600E0F75F /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C25EFBE1B80302600E0F75F /* HomeKit.framework */; };
+		4C25EFCA1B80333100E0F75F /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C25EFC91B80333100E0F75F /* InterfaceController.m */; };
+		4C25EFCD1B80333100E0F75F /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C25EFCC1B80333100E0F75F /* GlanceController.m */; };
+		4C25EFCF1B80333100E0F75F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C25EFCE1B80333100E0F75F /* Images.xcassets */; };
+		4C25EFD31B80333100E0F75F /* HomeKitApp WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 4C25EFD21B80333100E0F75F /* HomeKitApp WatchKit App.app */; };
+		4C25EFDB1B80333100E0F75F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C25EFD91B80333100E0F75F /* Interface.storyboard */; };
+		4C25EFDD1B80333100E0F75F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C25EFDC1B80333100E0F75F /* Images.xcassets */; };
+		4C25EFE01B80333100E0F75F /* HomeKitApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4C25EFC41B80333100E0F75F /* HomeKitApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4C25EFE91B803B9300E0F75F /* CentralParkMagic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C25EFE81B803B9300E0F75F /* CentralParkMagic.jpg */; };
+		4C26C92819E10BF7004A67F7 /* HKASwitchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26C92719E10BF7004A67F7 /* HKASwitchService.m */; };
+		4C26C92919E10BF7004A67F7 /* HKASwitchService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C26C92719E10BF7004A67F7 /* HKASwitchService.m */; };
+		4C270D141A466BA60071589A /* ServiceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C270D131A466BA60071589A /* ServiceDetailViewController.m */; };
+		4C65028619C42032006C499F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65028519C42032006C499F /* main.m */; };
+		4C65028919C42032006C499F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65028819C42032006C499F /* AppDelegate.m */; };
+		4C65028C19C42032006C499F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65028B19C42032006C499F /* HomeViewController.m */; };
+		4C65028F19C42032006C499F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C65028D19C42032006C499F /* Main.storyboard */; };
+		4C65029119C42032006C499F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C65029019C42032006C499F /* Images.xcassets */; };
+		4C65029D19C42032006C499F /* HomeKitAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C65029C19C42032006C499F /* HomeKitAppTests.m */; };
+		4C6502AA19C42496006C499F /* RoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C6502A919C42496006C499F /* RoomViewController.m */; };
+		4C686D6819E90522001850D5 /* HKALightBulbService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C686D6719E90522001850D5 /* HKALightBulbService.m */; };
+		4C686D6B19E9F8A5001850D5 /* HKAService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C686D6A19E9F8A5001850D5 /* HKAService.m */; };
+		4C686D6E19EA3D9B001850D5 /* HKAOutletService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C686D6D19EA3D9B001850D5 /* HKAOutletService.m */; };
+		4C9167B11AE0BA8800CAF34B /* ZoneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9167B01AE0BA8800CAF34B /* ZoneDetailViewController.m */; };
+		4C988C8D19C512AF0013F742 /* RoomAccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C988C8C19C512AF0013F742 /* RoomAccessoryViewController.m */; };
+		4C988C9019C514710013F742 /* AccessoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C988C8F19C514710013F742 /* AccessoryViewController.m */; };
+		4C988C9319C536DE0013F742 /* AccessoryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C988C9219C536DE0013F742 /* AccessoryDetailViewController.m */; };
+		4CE9B2811ABE1C61008724B3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE9B2801ABE1C61008724B3 /* SettingsViewController.m */; };
+		4CF063F21A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF063ED1A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.m */; };
+		4CF063F31A0ECE5A0018A6B1 /* HKALockService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF063EF1A0ECE5A0018A6B1 /* HKALockService.m */; };
+		4CF063F41A0ECE5A0018A6B1 /* HKAThermostatService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF063F11A0ECE5A0018A6B1 /* HKAThermostatService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C25EFD41B80333100E0F75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C65027819C42032006C499F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C25EFD11B80333100E0F75F;
+			remoteInfo = "HomeKitApp WatchKit App";
+		};
+		4C25EFDE1B80333100E0F75F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C65027819C42032006C499F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C25EFC31B80333100E0F75F;
+			remoteInfo = "HomeKitApp WatchKit Extension";
+		};
+		4C65029719C42032006C499F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C65027819C42032006C499F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C65027F19C42032006C499F;
+			remoteInfo = HomeKitApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C25EFE71B80333100E0F75F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4C25EFE01B80333100E0F75F /* HomeKitApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C24D9361ADE3B8800FFDA2B /* ZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneViewController.h; sourceTree = "<group>"; };
+		4C24D9371ADE3B8800FFDA2B /* ZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneViewController.m; sourceTree = "<group>"; };
+		4C25EFBE1B80302600E0F75F /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		4C25EFC41B80333100E0F75F /* HomeKitApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HomeKitApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C25EFC71B80333100E0F75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C25EFC81B80333100E0F75F /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		4C25EFC91B80333100E0F75F /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		4C25EFCB1B80333100E0F75F /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		4C25EFCC1B80333100E0F75F /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		4C25EFCE1B80333100E0F75F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C25EFD21B80333100E0F75F /* HomeKitApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeKitApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C25EFD81B80333100E0F75F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C25EFDA1B80333100E0F75F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		4C25EFDC1B80333100E0F75F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C25EFE81B803B9300E0F75F /* CentralParkMagic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CentralParkMagic.jpg; sourceTree = "<group>"; };
+		4C26778019EE3E2300021F87 /* ServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceProtocol.h; sourceTree = "<group>"; };
+		4C26C92619E10BC7004A67F7 /* HKASwitchService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKASwitchService.h; sourceTree = "<group>"; };
+		4C26C92719E10BF7004A67F7 /* HKASwitchService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKASwitchService.m; sourceTree = "<group>"; };
+		4C270D121A466BA60071589A /* ServiceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceDetailViewController.h; sourceTree = "<group>"; };
+		4C270D131A466BA60071589A /* ServiceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceDetailViewController.m; sourceTree = "<group>"; };
+		4C392B2719D7F420004FF5DB /* HomeKitApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HomeKitApp.entitlements; sourceTree = "<group>"; };
+		4C65028019C42032006C499F /* HomeKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomeKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C65028419C42032006C499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C65028519C42032006C499F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C65028719C42032006C499F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C65028819C42032006C499F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C65028A19C42032006C499F /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4C65028B19C42032006C499F /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		4C65028E19C42032006C499F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C65029019C42032006C499F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C65029619C42032006C499F /* HomeKitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomeKitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C65029B19C42032006C499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C65029C19C42032006C499F /* HomeKitAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeKitAppTests.m; sourceTree = "<group>"; };
+		4C6502A819C42496006C499F /* RoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomViewController.h; sourceTree = "<group>"; };
+		4C6502A919C42496006C499F /* RoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomViewController.m; sourceTree = "<group>"; };
+		4C686D6619E90522001850D5 /* HKALightBulbService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKALightBulbService.h; sourceTree = "<group>"; };
+		4C686D6719E90522001850D5 /* HKALightBulbService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKALightBulbService.m; sourceTree = "<group>"; };
+		4C686D6919E9F8A5001850D5 /* HKAService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKAService.h; sourceTree = "<group>"; };
+		4C686D6A19E9F8A5001850D5 /* HKAService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKAService.m; sourceTree = "<group>"; };
+		4C686D6C19EA3D9B001850D5 /* HKAOutletService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKAOutletService.h; sourceTree = "<group>"; };
+		4C686D6D19EA3D9B001850D5 /* HKAOutletService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKAOutletService.m; sourceTree = "<group>"; };
+		4C9167AF1AE0BA8800CAF34B /* ZoneDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneDetailViewController.h; sourceTree = "<group>"; };
+		4C9167B01AE0BA8800CAF34B /* ZoneDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneDetailViewController.m; sourceTree = "<group>"; };
+		4C988C8B19C512AF0013F742 /* RoomAccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomAccessoryViewController.h; sourceTree = "<group>"; };
+		4C988C8C19C512AF0013F742 /* RoomAccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomAccessoryViewController.m; sourceTree = "<group>"; };
+		4C988C8E19C514710013F742 /* AccessoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoryViewController.h; sourceTree = "<group>"; };
+		4C988C8F19C514710013F742 /* AccessoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoryViewController.m; sourceTree = "<group>"; };
+		4C988C9119C536DE0013F742 /* AccessoryDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoryDetailViewController.h; sourceTree = "<group>"; };
+		4C988C9219C536DE0013F742 /* AccessoryDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessoryDetailViewController.m; sourceTree = "<group>"; };
+		4CE9B27F1ABE1C61008724B3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		4CE9B2801ABE1C61008724B3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4CF063EC1A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKAGarageDoorOpenerService.h; sourceTree = "<group>"; };
+		4CF063ED1A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKAGarageDoorOpenerService.m; sourceTree = "<group>"; };
+		4CF063EE1A0ECE5A0018A6B1 /* HKALockService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKALockService.h; sourceTree = "<group>"; };
+		4CF063EF1A0ECE5A0018A6B1 /* HKALockService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKALockService.m; sourceTree = "<group>"; };
+		4CF063F01A0ECE5A0018A6B1 /* HKAThermostatService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HKAThermostatService.h; sourceTree = "<group>"; };
+		4CF063F11A0ECE5A0018A6B1 /* HKAThermostatService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HKAThermostatService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C25EFC11B80333100E0F75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C65027D19C42032006C499F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C25EFBF1B80302600E0F75F /* HomeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C65029319C42032006C499F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C25EFC51B80333100E0F75F /* HomeKitApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4C25EFC81B80333100E0F75F /* InterfaceController.h */,
+				4C25EFC91B80333100E0F75F /* InterfaceController.m */,
+				4C25EFCB1B80333100E0F75F /* GlanceController.h */,
+				4C25EFCC1B80333100E0F75F /* GlanceController.m */,
+				4C25EFCE1B80333100E0F75F /* Images.xcassets */,
+				4C25EFC61B80333100E0F75F /* Supporting Files */,
+			);
+			path = "HomeKitApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		4C25EFC61B80333100E0F75F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C25EFC71B80333100E0F75F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C25EFD61B80333100E0F75F /* HomeKitApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				4C25EFD91B80333100E0F75F /* Interface.storyboard */,
+				4C25EFE81B803B9300E0F75F /* CentralParkMagic.jpg */,
+				4C25EFDC1B80333100E0F75F /* Images.xcassets */,
+				4C25EFD71B80333100E0F75F /* Supporting Files */,
+			);
+			path = "HomeKitApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		4C25EFD71B80333100E0F75F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C25EFD81B80333100E0F75F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C65027719C42032006C499F = {
+			isa = PBXGroup;
+			children = (
+				4C25EFBE1B80302600E0F75F /* HomeKit.framework */,
+				4C65028219C42032006C499F /* HomeKitApp */,
+				4C65029919C42032006C499F /* HomeKitAppTests */,
+				4C25EFC51B80333100E0F75F /* HomeKitApp WatchKit Extension */,
+				4C25EFD61B80333100E0F75F /* HomeKitApp WatchKit App */,
+				4C65028119C42032006C499F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C65028119C42032006C499F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C65028019C42032006C499F /* HomeKitApp.app */,
+				4C65029619C42032006C499F /* HomeKitAppTests.xctest */,
+				4C25EFC41B80333100E0F75F /* HomeKitApp WatchKit Extension.appex */,
+				4C25EFD21B80333100E0F75F /* HomeKitApp WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C65028219C42032006C499F /* HomeKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C9167AF1AE0BA8800CAF34B /* ZoneDetailViewController.h */,
+				4C9167B01AE0BA8800CAF34B /* ZoneDetailViewController.m */,
+				4C24D9361ADE3B8800FFDA2B /* ZoneViewController.h */,
+				4C24D9371ADE3B8800FFDA2B /* ZoneViewController.m */,
+				4CE9B27F1ABE1C61008724B3 /* SettingsViewController.h */,
+				4CE9B2801ABE1C61008724B3 /* SettingsViewController.m */,
+				4C270D121A466BA60071589A /* ServiceDetailViewController.h */,
+				4C270D131A466BA60071589A /* ServiceDetailViewController.m */,
+				4CF063EC1A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.h */,
+				4CF063ED1A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.m */,
+				4CF063EE1A0ECE5A0018A6B1 /* HKALockService.h */,
+				4CF063EF1A0ECE5A0018A6B1 /* HKALockService.m */,
+				4CF063F01A0ECE5A0018A6B1 /* HKAThermostatService.h */,
+				4CF063F11A0ECE5A0018A6B1 /* HKAThermostatService.m */,
+				4C392B2719D7F420004FF5DB /* HomeKitApp.entitlements */,
+				4C65028719C42032006C499F /* AppDelegate.h */,
+				4C65028819C42032006C499F /* AppDelegate.m */,
+				4C988C9119C536DE0013F742 /* AccessoryDetailViewController.h */,
+				4C988C9219C536DE0013F742 /* AccessoryDetailViewController.m */,
+				4C988C8E19C514710013F742 /* AccessoryViewController.h */,
+				4C988C8F19C514710013F742 /* AccessoryViewController.m */,
+				4C65028A19C42032006C499F /* HomeViewController.h */,
+				4C65028B19C42032006C499F /* HomeViewController.m */,
+				4C686D6919E9F8A5001850D5 /* HKAService.h */,
+				4C686D6A19E9F8A5001850D5 /* HKAService.m */,
+				4C26778019EE3E2300021F87 /* ServiceProtocol.h */,
+				4C686D6C19EA3D9B001850D5 /* HKAOutletService.h */,
+				4C686D6D19EA3D9B001850D5 /* HKAOutletService.m */,
+				4C26C92619E10BC7004A67F7 /* HKASwitchService.h */,
+				4C26C92719E10BF7004A67F7 /* HKASwitchService.m */,
+				4C686D6619E90522001850D5 /* HKALightBulbService.h */,
+				4C686D6719E90522001850D5 /* HKALightBulbService.m */,
+				4C988C8B19C512AF0013F742 /* RoomAccessoryViewController.h */,
+				4C988C8C19C512AF0013F742 /* RoomAccessoryViewController.m */,
+				4C6502A819C42496006C499F /* RoomViewController.h */,
+				4C6502A919C42496006C499F /* RoomViewController.m */,
+				4C65028D19C42032006C499F /* Main.storyboard */,
+				4C65029019C42032006C499F /* Images.xcassets */,
+				4C65028319C42032006C499F /* Supporting Files */,
+			);
+			path = HomeKitApp;
+			sourceTree = "<group>";
+		};
+		4C65028319C42032006C499F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C65028419C42032006C499F /* Info.plist */,
+				4C65028519C42032006C499F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C65029919C42032006C499F /* HomeKitAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C65029C19C42032006C499F /* HomeKitAppTests.m */,
+				4C65029A19C42032006C499F /* Supporting Files */,
+			);
+			path = HomeKitAppTests;
+			sourceTree = "<group>";
+		};
+		4C65029A19C42032006C499F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C65029B19C42032006C499F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C25EFC31B80333100E0F75F /* HomeKitApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C25EFE41B80333100E0F75F /* Build configuration list for PBXNativeTarget "HomeKitApp WatchKit Extension" */;
+			buildPhases = (
+				4C25EFC01B80333100E0F75F /* Sources */,
+				4C25EFC11B80333100E0F75F /* Frameworks */,
+				4C25EFC21B80333100E0F75F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C25EFD51B80333100E0F75F /* PBXTargetDependency */,
+			);
+			name = "HomeKitApp WatchKit Extension";
+			productName = "HomeKitApp WatchKit Extension";
+			productReference = 4C25EFC41B80333100E0F75F /* HomeKitApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		4C25EFD11B80333100E0F75F /* HomeKitApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C25EFE11B80333100E0F75F /* Build configuration list for PBXNativeTarget "HomeKitApp WatchKit App" */;
+			buildPhases = (
+				4C25EFD01B80333100E0F75F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HomeKitApp WatchKit App";
+			productName = "HomeKitApp WatchKit App";
+			productReference = 4C25EFD21B80333100E0F75F /* HomeKitApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		4C65027F19C42032006C499F /* HomeKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6502A019C42032006C499F /* Build configuration list for PBXNativeTarget "HomeKitApp" */;
+			buildPhases = (
+				4C65027C19C42032006C499F /* Sources */,
+				4C65027D19C42032006C499F /* Frameworks */,
+				4C65027E19C42032006C499F /* Resources */,
+				4C25EFE71B80333100E0F75F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C25EFDF1B80333100E0F75F /* PBXTargetDependency */,
+			);
+			name = HomeKitApp;
+			productName = HomeKitApp;
+			productReference = 4C65028019C42032006C499F /* HomeKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C65029519C42032006C499F /* HomeKitAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6502A319C42032006C499F /* Build configuration list for PBXNativeTarget "HomeKitAppTests" */;
+			buildPhases = (
+				4C65029219C42032006C499F /* Sources */,
+				4C65029319C42032006C499F /* Frameworks */,
+				4C65029419C42032006C499F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C65029819C42032006C499F /* PBXTargetDependency */,
+			);
+			name = HomeKitAppTests;
+			productName = HomeKitAppTests;
+			productReference = 4C65029619C42032006C499F /* HomeKitAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C65027819C42032006C499F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dennis Lucero";
+				TargetAttributes = {
+					4C25EFC31B80333100E0F75F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9UG4LR369Y;
+					};
+					4C25EFD11B80333100E0F75F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4C65027F19C42032006C499F = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 9UG4LR369Y;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+						};
+					};
+					4C65029519C42032006C499F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 4C65027F19C42032006C499F;
+					};
+				};
+			};
+			buildConfigurationList = 4C65027B19C42032006C499F /* Build configuration list for PBXProject "HomeKitApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C65027719C42032006C499F;
+			productRefGroup = 4C65028119C42032006C499F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C65027F19C42032006C499F /* HomeKitApp */,
+				4C65029519C42032006C499F /* HomeKitAppTests */,
+				4C25EFC31B80333100E0F75F /* HomeKitApp WatchKit Extension */,
+				4C25EFD11B80333100E0F75F /* HomeKitApp WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C25EFC21B80333100E0F75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C25EFD31B80333100E0F75F /* HomeKitApp WatchKit App.app in Resources */,
+				4C25EFCF1B80333100E0F75F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C25EFD01B80333100E0F75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C25EFDB1B80333100E0F75F /* Interface.storyboard in Resources */,
+				4C25EFDD1B80333100E0F75F /* Images.xcassets in Resources */,
+				4C25EFE91B803B9300E0F75F /* CentralParkMagic.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C65027E19C42032006C499F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C65028F19C42032006C499F /* Main.storyboard in Resources */,
+				4C65029119C42032006C499F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C65029419C42032006C499F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C25EFC01B80333100E0F75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C25EFCA1B80333100E0F75F /* InterfaceController.m in Sources */,
+				4C25EFCD1B80333100E0F75F /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C65027C19C42032006C499F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CF063F21A0ECE5A0018A6B1 /* HKAGarageDoorOpenerService.m in Sources */,
+				4C686D6B19E9F8A5001850D5 /* HKAService.m in Sources */,
+				4C6502AA19C42496006C499F /* RoomViewController.m in Sources */,
+				4CE9B2811ABE1C61008724B3 /* SettingsViewController.m in Sources */,
+				4CF063F31A0ECE5A0018A6B1 /* HKALockService.m in Sources */,
+				4C65028C19C42032006C499F /* HomeViewController.m in Sources */,
+				4C686D6E19EA3D9B001850D5 /* HKAOutletService.m in Sources */,
+				4C24D9381ADE3B8800FFDA2B /* ZoneViewController.m in Sources */,
+				4C65028919C42032006C499F /* AppDelegate.m in Sources */,
+				4C988C9019C514710013F742 /* AccessoryViewController.m in Sources */,
+				4C26C92819E10BF7004A67F7 /* HKASwitchService.m in Sources */,
+				4C686D6819E90522001850D5 /* HKALightBulbService.m in Sources */,
+				4C65028619C42032006C499F /* main.m in Sources */,
+				4C9167B11AE0BA8800CAF34B /* ZoneDetailViewController.m in Sources */,
+				4CF063F41A0ECE5A0018A6B1 /* HKAThermostatService.m in Sources */,
+				4C988C8D19C512AF0013F742 /* RoomAccessoryViewController.m in Sources */,
+				4C270D141A466BA60071589A /* ServiceDetailViewController.m in Sources */,
+				4C988C9319C536DE0013F742 /* AccessoryDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C65029219C42032006C499F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C26C92919E10BF7004A67F7 /* HKASwitchService.m in Sources */,
+				4C65029D19C42032006C499F /* HomeKitAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C25EFD51B80333100E0F75F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C25EFD11B80333100E0F75F /* HomeKitApp WatchKit App */;
+			targetProxy = 4C25EFD41B80333100E0F75F /* PBXContainerItemProxy */;
+		};
+		4C25EFDF1B80333100E0F75F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C25EFC31B80333100E0F75F /* HomeKitApp WatchKit Extension */;
+			targetProxy = 4C25EFDE1B80333100E0F75F /* PBXContainerItemProxy */;
+		};
+		4C65029819C42032006C499F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C65027F19C42032006C499F /* HomeKitApp */;
+			targetProxy = 4C65029719C42032006C499F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C25EFD91B80333100E0F75F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C25EFDA1B80333100E0F75F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		4C65028D19C42032006C499F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C65028E19C42032006C499F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C25EFE21B80333100E0F75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = HomeKitApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HomeKitApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		4C25EFE31B80333100E0F75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = HomeKitApp_WatchKit_Extension;
+				INFOPLIST_FILE = "HomeKitApp WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		4C25EFE51B80333100E0F75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HomeKitApp WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C25EFE61B80333100E0F75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "HomeKitApp WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4C65029E19C42032006C499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C65029F19C42032006C499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C6502A119C42032006C499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = HomeKitApp/HomeKitApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HomeKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4C6502A219C42032006C499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = HomeKitApp/HomeKitApp.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = HomeKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4C6502A419C42032006C499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeKitApp.app/HomeKitApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeKitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		4C6502A519C42032006C499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HomeKitApp.app/HomeKitApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HomeKitAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C25EFE11B80333100E0F75F /* Build configuration list for PBXNativeTarget "HomeKitApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C25EFE21B80333100E0F75F /* Debug */,
+				4C25EFE31B80333100E0F75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C25EFE41B80333100E0F75F /* Build configuration list for PBXNativeTarget "HomeKitApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C25EFE51B80333100E0F75F /* Debug */,
+				4C25EFE61B80333100E0F75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C65027B19C42032006C499F /* Build configuration list for PBXProject "HomeKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C65029E19C42032006C499F /* Debug */,
+				4C65029F19C42032006C499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6502A019C42032006C499F /* Build configuration list for PBXNativeTarget "HomeKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6502A119C42032006C499F /* Debug */,
+				4C6502A219C42032006C499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6502A319C42032006C499F /* Build configuration list for PBXNativeTarget "HomeKitAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C6502A419C42032006C499F /* Debug */,
+				4C6502A519C42032006C499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C65027819C42032006C499F /* Project object */;
+}

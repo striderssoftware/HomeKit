@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label width="134" height="100" alignment="left" text="WK Interface Controller" id="rj0-Gh-vWW"/>
+                        <button width="1" alignment="left" title="I Button" id="QFm-WA-BIz">
+                            <color key="titleColor" red="1" green="0.094300598144993475" blue="0.95305434348471185" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="backgroundColor" red="0.22005753461714883" green="0.2429290885361638" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="I_Button" destination="AgC-eL-Hgc" id="XRP-0v-xze"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="message" destination="rj0-Gh-vWW" id="yYE-ka-OwS"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="rjY-Ar-IMT">
+            <objects>
+                <glanceController spacing="0.0" id="Sv0-Ai-Zie" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="gv7-I2-MZq"/>
+                        <group alignment="left" id="eew-Gs-W6Y">
+                            <items>
+                                <imageView width="135" height="109" alignment="left" image="CentralParkMagic.jpg" id="X1n-De-1gy"/>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="514"/>
+        </scene>
+    </scenes>
+</document>
