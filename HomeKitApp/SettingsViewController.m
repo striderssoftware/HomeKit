@@ -19,7 +19,7 @@
 
 @synthesize pSwitch;
 @synthesize pSwitch2;
-@synthesize pSwitch3;
+@synthesize pSwitch3; // TODO - use this switch or delete it.
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 - (void)viewDidLoad
